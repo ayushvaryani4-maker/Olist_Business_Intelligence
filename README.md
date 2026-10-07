@@ -85,6 +85,7 @@ Olist_Business_Intelligence/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 ## Dataset
 
 This project uses the **Olist Brazilian E-Commerce Public Dataset**.
@@ -107,6 +108,7 @@ The data is used to calculate business metrics and generate insights through the
 ```bash
 git clone https://github.com/ayushvaryani4-maker/Olist_Business_Intelligence.git
 cd Olist_Business_Intelligence
+```
 ### 2. Create a virtual environment
 
 ```bash
@@ -115,20 +117,26 @@ On Windows:
 
 ```powershell
 .venv\Scripts\activate
+```
+
 ### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 ### 4. Configure the Gemini API
 Create the following file:
 
 ```text
 .streamlit/secrets.toml
+```
 Add your Gemini API key to the file:
 
 ```toml
 GEMINI_API_KEY = "your_api_key_here"
+```
 ### 5. Run the dashboard
 
 ```bash
 streamlit run app.py
+```
